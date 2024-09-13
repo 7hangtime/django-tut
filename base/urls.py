@@ -7,5 +7,5 @@ urlpatterns = [
     path('create-room/', views.createRoom, name="create-rr"),
     path('update-room/<str:pk>', views.updateRoom, name="update-rr"),
     path('delete-room/<str:pk>', views.deleteRoom, name="delete-rr"),
-
+    path('login/', views.loginPage, name='login'),
 ]
